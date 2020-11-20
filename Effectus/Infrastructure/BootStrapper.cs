@@ -29,7 +29,7 @@ namespace Effectus.Infrastructure
 			if(Configuration == null)
 			{
 				Configuration = new Configuration().Configure(ConfigFile);
-				SaveConfigurationToFile(Configuration);
+				//SaveConfigurationToFile(Configuration);
 				usedCfg = false;
 			}
 			

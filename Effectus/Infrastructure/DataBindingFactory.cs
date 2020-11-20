@@ -2,7 +2,6 @@ namespace Effectus.Infrastructure
 {
 	using System;
 	using System.ComponentModel;
-	using Castle.Core.Interceptor;
 	using Castle.DynamicProxy;
 
 	public static class DataBindingFactory
